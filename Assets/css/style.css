@@ -1,0 +1,99 @@
+		.container{
+			margin-top:10px;
+			background-color: white;
+			opacity: 0.9;
+			border-radius: 20px;
+		}
+		.header{
+			width: 80%;
+			margin-top: 10px;
+		}
+		.heading{
+			font-size: 70px;
+			font-family: forte;
+			text-shadow: 10px 8px 10px silver;
+		}
+		.menu{
+			margin-top: 0px;
+			
+		}
+		hr{
+			border: solid 1px black;
+			margin-bottom: 0px;
+			margin-top:0px; 
+		}
+		ul
+		{
+			padding: 0px;
+ 			margin: 0px;
+			list-style:none;
+		}
+		ul li
+		{
+			float: left;
+			display: block;
+			position: relative;
+			font-size:22px;
+			font-family:forte;
+			text-decoration: none;
+			padding-left: 10px;
+			padding-right: 10px;
+			text-shadow: 10px 8px 10px silver;
+		}
+		ul li a{
+			color:black;
+			display: block;
+			white-space: nowrap;
+		}
+		ul li a:hover{
+			color:silver;
+		}
+		li ul
+		{
+			display:none;
+			margin-left:-10px; 
+		}
+		li:hover ul 
+		{
+			position: absolute;
+			display: block;
+			border: solid 1px black;
+			background-color: white;
+			font-size: 18px; 
+			border-radius: 10px;
+			z-index: 10000;
+		}
+		li:hove li
+		{
+			float: left;
+		}
+		.bodies{
+
+		}
+		tr,.search1{
+			display: inline-block;
+
+		}
+		label,select{
+			font-family: Comic Sans MS;
+			font-size: 15px;
+			margin-left: 5px; 
+		}
+		input,select{
+			border-radius: 10px;
+		}
+		.login{
+			font-family: Comic Sans MS;
+		}
+		.footer{
+			text-shadow: 5px 5px 10px black;
+			position: fixed;
+			bottom: 0;
+			margin-top: 50px;
+			color:silver;
+			font-size: 18px;
+			font-family: Calibri;
+			padding-top:5px;
+			padding-bottom: 5px;
+			
+		}
